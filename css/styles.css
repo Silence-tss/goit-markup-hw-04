@@ -140,7 +140,7 @@ img {
     background: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
-    background-image: url(../images/people-office\ 1.jpg), linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -227,6 +227,19 @@ img {
     width: calc((100% - 72px) / 4)
 }
 
+.advantages-box {
+    display: flex;
+    background-color: var(--cloud);
+    min-height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
 /* PROJECTS */
 
 .projects {
@@ -303,6 +316,38 @@ img {
     color: var(--slate);
     text-align: center;
 }
+
+.team-social {
+    margin-top: 8px;
+}
+
+.team-social-item {
+    width: 40px;
+    height: 40px;
+}
+
+.team-social-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.social-link {
+    width: 100%;
+    height: 100%;
+    background-color: var(--iris);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-link:hover,
+.social-link:focus {
+    background-color: var(--ocean);
+}
+
+
 
 /* FOOTER */
 
