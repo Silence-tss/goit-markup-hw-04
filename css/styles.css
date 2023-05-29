@@ -358,12 +358,12 @@ img {
 
 .footer-container {
     display: flex;
-    margin-right: 120px;
     align-items: baseline;
 }
 
 .footer-column-1 {
     max-width: 264px;
+    margin-right: 120px;
 }
 
 .footer-column-2 {
@@ -551,16 +551,15 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: #8E8F99;
 }
 
-.customers-link:hover {
+.customers-link:hover,
+.customers-link:focus {
     border-color: var(--ocean);
-}
-
-.customers-link:hover .customers-icon {
-    fill: var(--ocean);
+    color: var(--ocean)
 }
 
 .customers-icon {
-    fill: #8E8F99;
+    fill: currentColor;
 }
