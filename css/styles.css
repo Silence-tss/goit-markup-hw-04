@@ -358,7 +358,8 @@ img {
 
 .footer-container {
     display: flex;
-    gap: 120px;
+    margin-right: 120px;
+    align-items: baseline;
 }
 
 .footer-column-1 {
@@ -380,11 +381,7 @@ img {
     height: 40px;
 }
 
-.footer-column-2 {
-    align-items: baseline;
-}
-
-.footer-social {
+.footer-social-icon {
     fill: #f4f4fd;
 }
 
