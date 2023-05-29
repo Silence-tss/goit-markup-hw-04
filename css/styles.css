@@ -55,6 +55,7 @@ img {
 
 .header {
     border-bottom: 1px solid #E7E9FC;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .header-address {
@@ -138,7 +139,6 @@ img {
 
 .hero {
     max-width: 1440px;
-    background: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
@@ -373,7 +373,6 @@ img {
     display: flex;
     justify-content: center;
     gap: 16px;
-    margin-top: 16px;
 }
 
 .footer-social-item {
@@ -381,8 +380,12 @@ img {
     height: 40px;
 }
 
+.footer-column-2 {
+    align-items: baseline;
+}
+
 .footer-social {
-    fill: var(--cloud);
+    fill: #f4f4fd;
 }
 
 .footer-social-link {
@@ -424,12 +427,13 @@ img {
     color: var(--cloud);
 }
 
-.title-col-2 {
+.title-col-social {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--white);
+    margin-bottom: 16px;
 }
 
 .footer-text {
@@ -466,6 +470,7 @@ img {
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .portfolio-title {
