@@ -137,6 +137,7 @@ img {
 /* HERO */
 
 .hero {
+    max-width: 1440px;
     background: var(--navy-blue);
     padding-top: 188px;
     padding-bottom: 188px;
